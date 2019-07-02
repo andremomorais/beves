@@ -1,13 +1,8 @@
 
 # beves
 
-![image](https://img.shields.io/pypi/v/beves.svg)
-
-![image](https://img.shields.io/pypi/pyversions/beves.svg)
-
-![image](https://img.shields.io/pypi/status/beves.svg)
-
-![image](https://img.shields.io/pypi/l/beves.svg)
+![image](https://img.shields.io/travis/com/andremomorais/beves/master.svg)
+![image](https://img.shields.io/pypi/v/beves.svg)![image](https://img.shields.io/pypi/pyversions/beves.svg) ![image](https://img.shields.io/pypi/status/beves.svg) ![image](https://img.shields.io/pypi/l/beves.svg)
 
 
 beves is a simple wrapper to send messages with Telegram Bot. Useful to alert on something or to notify when scripts are finished!
