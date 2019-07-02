@@ -13,5 +13,6 @@ deploy:
   user: andremomorais
   password:
     secure: 0aZ5QPgvR+s/C+iJz5sdfXdRbZnl4je96KX53YNczrOzAKAodYsWO5+tiVlstm/qKf8ap7BM2lGNlso+0jV5WuBIJH/7Y0eOYim7eBKZUpaVjN9+xk4PE6tJ7yZpRar06Z+0FgGbxj/HBa+nsp9a87KgZmJgR8+Vuwll4aBhyEdvSg+pDVBiwibhBVvWUMHjK/eTImRG256e7wopuHAe3mx+X+6K5MVVECl/bkwsXdWP8sMOsYeDEeybKG0dgVZZac31slKI97Ef0GdK9kYPeRUsF+FMbATF5TlM1cxJaElM3jACrSElv+CVLLwM3GHWO0BJcOW/sfn+n9DxypakeYlogwSnt+WHGm2qSs9Na1WtRlfgW/cO4RAuI/oQDttxjUifkKrN4Kl3m35OXmqGC95DBoTQfd1TiOvKw+/13SkqdhZeWu2abqZIeV3bG80a2rW1Xn5DkPlVRZgUfssvKVz2Q8zo1t3RGJwvc14wLXYVUVDHdSVKwOMwN7ZC+T/NXp7Pww6fOyJFsnpQ7XOm2V6BUP8WtOFlRlcOfax2nlj1JzfmfdPKB8pWjjWneYRge2f4htLHGpfr09tFRl30PCaIiZYJhS+w6V/TT/DEX8LulEnnJSluazGRYr69AN/7Urc976IaerhaIv2CYJBJQ+fuj3yycPr3HGKTcN3Ad8A=
+  skip_existing: true
   on:
     branch: master
