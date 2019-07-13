@@ -4,7 +4,6 @@
 ![image](https://img.shields.io/travis/com/v1sion/beves/master.svg)
 ![image](https://img.shields.io/pypi/v/beves.svg)![image](https://img.shields.io/pypi/pyversions/beves.svg) ![image](https://img.shields.io/pypi/status/beves.svg) ![image](https://img.shields.io/pypi/l/beves.svg)
 
-
 beves is a simple wrapper to send messages with Telegram Bot. Useful to alert on something or to notify when scripts are finished!
 
 Table of contents
@@ -25,11 +24,9 @@ Table of contents
 Introduction
 ------
 
-
 This module provides a simple way to send messages with Telegram Bot. Is useful to notify you when scripts are finished.
 You can import it into your code or using the command-line utility. In the command-line utility, beves
 reads the message data as a parameter or from stdin.
-
 
 Installing
 ------
@@ -37,14 +34,15 @@ Installing
 You can install or upgrade beves with:
 
 ```bash
-$ pip install beves --upgrade
+pip install beves --upgrade
 ```
+
 Or you can install from source with:
 
 ```bash
-$ git clone https://github.com/andremmorais/beves --recursive
-$ cd beves
-$ python setup.py install
+git clone https://github.com/andremmorais/beves --recursive
+cd beves
+python setup.py install
 ```
 
 Getting started
@@ -61,21 +59,25 @@ $ beves
 Token: xxxxx
 Chat ID: xxxxx
 ```
+
 Run from command-line with message data as argv
 
 ```bash
-$ sleep 5 && beves "sleep finished";
+sleep 5 && beves "sleep finished";
 ```
+
 Run from command-line with message data from stdin
 
 ```bash
-$ echo "this is a test message" | beves
+echo "this is a test message" | beves
 ```
+
 Run from command-line passing token and chat_id as args
 
 ```bash
-$ beves -t xxxxx -i xxx "this is a test message"
+beves -t xxxxx -i xxx "this is a test message"
 ```
+
 Importing into your code
 
 ```python
@@ -83,6 +85,7 @@ from beves import Beves
 bot = Beves()
 bot.push('test')
 ```
+
 If you dont have the configuration you will need to pass them as arguments:
 
 ```python
@@ -111,7 +114,7 @@ optional arguments:
                         sender chat id
   -c CONFIG, --config CONFIG
                         configuration file instead of
-                        /Users/andre.morais/.beves
+                        /Users/xxx/.beves
   -v, --verbosity       increase output verbosity
   --version             show program's version number and exit
 ```
@@ -127,4 +130,3 @@ License
 ------
 
 You may copy, distribute and modify the software provided that modifications are described and licensed for free under [LGPL-3](https://www.gnu.org/licenses/lgpl-3.0.html). Derivatives works (including modifications or anything statically linked to the library) can only be redistributed under LGPL-3, but applications that use the library don't have to be.
-
