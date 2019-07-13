@@ -1,7 +1,7 @@
 
 # beves
 
-![image](https://img.shields.io/travis/com/andremomorais/beves/master.svg)
+![image](https://img.shields.io/travis/com/v1sion/beves/master.svg)
 ![image](https://img.shields.io/pypi/v/beves.svg)![image](https://img.shields.io/pypi/pyversions/beves.svg) ![image](https://img.shields.io/pypi/status/beves.svg) ![image](https://img.shields.io/pypi/l/beves.svg)
 
 
